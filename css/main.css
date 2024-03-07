@@ -19,7 +19,7 @@
   --btn-default-hover-border-color: #222;
 }
 html {
-  line-height: 1.15; /* 1 */
+  line-height: 1; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 body {
@@ -29,7 +29,7 @@ main {
   display: block;
 }
 h1 {
-  font-size: 2em;
+  font-size: 1em;
   margin: 0.67em 0;
 }
 hr {
@@ -178,7 +178,7 @@ body {
   background: var(--body-bg-color);
   color: var(--text-color);
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 1em;
+  font-size: 0.9em;
   line-height: 2;
 }
 @media (max-width: 991px) {
@@ -199,22 +199,22 @@ h6 {
   margin: 20px 0 15px;
 }
 h1 {
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 h2 {
-  font-size: 1.375em;
-}
-h3 {
-  font-size: 1.25em;
-}
-h4 {
-  font-size: 1.125em;
-}
-h5 {
   font-size: 1em;
 }
+h3 {
+  font-size: 0.9em;
+}
+h4 {
+  font-size: 0.8em;
+}
+h5 {
+  font-size: 0.8em;
+}
 h6 {
-  font-size: 0.875em;
+  font-size: 0.7em;
 }
 p {
   margin: 0 0 20px 0;
